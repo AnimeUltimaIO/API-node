@@ -1,9 +1,9 @@
 ﻿var mysql = require('mysql');
 
 var pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: process.env.ANIMEULTIMA_MYSQL_DB_HOST,
+  user: process.env.ANIMEULTIMA_MYSQL_DB_USERNAME,
+  password: process.env.ANIMEULTIMA_MYSQL_DB_PASSWORD,
   database: 'animeultima',
   connectionLimit: 5000
 });
