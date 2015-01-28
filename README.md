@@ -1,2 +1,2 @@
 # API-node
-Node.js API for AnimeUltima
+Upcoming Node.js API for AnimeUltima
